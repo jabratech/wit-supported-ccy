@@ -1,0 +1,7 @@
+interface supported-ccy-handler {
+    use jabratech:common/types.{response-error};
+    use types.{supported-ccy-response};
+
+    get:  func(id: option<s16>, ticker: option<string>, name: option<string>) -> result<supported-ccy-response, response-error>;
+    
+  }

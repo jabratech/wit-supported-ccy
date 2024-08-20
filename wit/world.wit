@@ -1,0 +1,5 @@
+package jabratech:supported-ccy-common;
+
+world supported-ccy {
+    export supported-ccy-handler;
+}
